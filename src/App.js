@@ -24,7 +24,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Task Tracker</h1>
+      <h1>ToDo List</h1>
       <AddTask onAdd={addTask} />
       <TaskList tasks={tasks} onDelete={deleteTask} onToggleComplete={toggleComplete} />
     </div>
